@@ -1,0 +1,1 @@
+UPDATE `basic` SET `attribute`='cost_per_ticket',`adult`=300,`child`=225,`senior`=150 WHERE attribute = 'cost_per_ticket'

@@ -1,0 +1,14 @@
+<html>
+<body>
+
+Welcome <?php echo $_POST["DOV"]; ?><br>
+Your email address is: <?php echo $_POST["NOA"]; ?>
+<br>
+Your email address is: <?php echo $_POST["NOC"]; ?>
+<BR>
+<br>
+Your email address is: <?php echo $_POST["NOS"]; ?>
+<BR>
+
+</body>
+</html>

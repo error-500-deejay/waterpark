@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+input[type=email] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    padding: 12px 10px 12px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.subscribebutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding:13px 13px;
+    text-align: center;
+     border-radius: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.subscribe
+{
+      position:absolute;
+      
+      display:inline-block;
+      z-index:10;
+      top: 25px;
+      left : 950px;
+
+      }
+
+input[type=email]:focus {
+    width: 150%;
+}
+</style>
+</head>
+<body>
+
+
+<form class="subscribe" action="connectsubscribe.php" method="post">
+  <input type="email" name="user_email" required placeholder="Enter Your Email to know about trending offers">
+
+  <button type="submit" class="subscribebutton"  value="Submit">Subscribe</button>
+</form>
+
+</body>
+</html>
